@@ -13,6 +13,7 @@
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsive-freelancer.css">
         <title>Bootstrap Freelancer</title>
     </head>
     <body>
@@ -111,20 +112,20 @@
             <section class="start-boostrap-bg">
                 <div class="container min-height-300 p-5 text-white">
                     <div class="col-12 text-center">
-                        <h1 class="">ABOUT</h1>
+                        <h2>ABOUT</h2>
                         <!-- STELLA -->
                         <div>
-                            <span class="lines-white"><i class="fas fa-star fa-xl mx-1"></i></span>
+                            <span class="lines-white-short"><i class="fas fa-star fa-xl mx-1"></i></span>
                          </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6 mt-4">
-                                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora laboriosam repudiandae quae praesentium, quam quod veritatis cumque eum quia repellat sequi eaque ab odio accusantium!</p>
+                            <div class="row gy-3 mt-3">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora laboriosam repudiandae quae praesentium, quam quod veritatis cumque eum quia repellat sequi eaque ab odio accusantium!</p>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6 mt-4">
-                                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quos eligendi id repudiandae magnam possimus minus velit tempore illo eveniet impedit at vitae, molestiae sint officiis!</p>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quos eligendi id repudiandae magnam possimus minus velit tempore illo eveniet impedit at vitae, molestiae sint officiis!</p>
                                 </div>
                             </div>
                         </div>
@@ -136,12 +137,23 @@
                 </div>
             </section>
             <!-- CONTACT -->
-            <section class>
+            <section>
                 <div class="container min-height-300 py-5">
-                    <h2 class="text-center">CONTACT ME</h2>
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <div class="content"></div>
+                    <div class="col-12 text-center">
+                        <h3>CONTACT ME</h3>
+                        <div>
+                            <span class="lines-black-short"><i class="fas fa-star fa-xl mx-1"></i></span>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 px-5">
+                            <form action="" method="post">
+                                <input class="form-control d-block border-0 border-bottom mt-3" type="text" name="Name" placeholder="Name" id="">
+                                <input class="form-control d-block border-0 border-bottom mt-3" type="email" name="Email" placeholder="Email Address" id="">
+                                <input class="form-control d-block border-0 border-bottom mt-3" type="tel" name="Cell" placeholder="Phone Number" id="">
+                                <textarea class="form-control d-block border-0 border-bottom mt-3" name="Message" id="" rows="5" placeholder="Message"></textarea>
+                                <button type="submit" class="btn btn-light">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
