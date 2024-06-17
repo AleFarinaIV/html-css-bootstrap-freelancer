@@ -1,21 +1,13 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 header {
     background-color: rgb(35, 39, 47);
     min-height: 75px;
 }
-
-/* .min-height-300 {
-    min-height: 300px;
-}
-
-.min-height-500 {
-    min-height: 500px;
-} */
 
 .box {
     background-color: red;
