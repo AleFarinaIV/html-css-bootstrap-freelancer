@@ -26,11 +26,23 @@
     }
     .lines-black-short:after , .lines-black-short:before {
         content: "";
-        width: 50px;
+        width: 45px;
         height: 3px;
         background-color: black;
         display: inline-block;
         vertical-align: middle;
+    }
+
+    .circleBg {
+        border: 1px solid white;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 5px;
+        font-size: 12px;
     }
 }
 
@@ -45,7 +57,7 @@
     }
     .lines-black:after , .lines-black:before {
         content: "";
-        width: 90px;
+        width: 100px;
         height: 3px;
         background-color: black;
         display: inline-block;
